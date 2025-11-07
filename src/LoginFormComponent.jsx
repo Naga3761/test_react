@@ -48,7 +48,7 @@ function LoginFormComponent() {
 
   return (
     <div className="login-container">
-      <h2>User Login</h2>
+      <h2>User Login Page</h2>
       
       {/* Display error message if state.error is set */}
       {error && <p className="error-message" style={{ color: 'red' }}>{error}</p>}
